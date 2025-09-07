@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+:root {
+
+    --fonte-secundaria:"Montserrat", sans-serif;
+    --fonte-primaria:"Krona One", sans-serif; 
+    --cor-prmaria: #E4E0E1;
+    --cor-secundaria: #493628;
+    --cor-tercearia: #AB886D;
+    --cor-hover: #AB886D;
+
+}
+
+
+body   {
+    
+    box-sizing: border-box;
+    background-color: var(--cor-prmaria);
+    color: var(--cor-secundaria);
+    
+}
+
+.titulo-destaque {
+    color:var(--cor-tercearia);
+}
+
+
+.apresentacao {
+
+    padding: 8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+.texto-apresentacao {
+    
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-primaria);
+    width: 593px;
+    gap: 40px;
+    
+}
+
+.apresentacao__titulo {
+    font-size: 36px;
+   
+}
+
+.paragrafo {
+    font-family: var(--fonte-secundaria);
+    font-size: 25px;
+
+}
+
+.links-apresentacao {
+
+    font-size: 19px;
+    gap:32px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center
+    
+    
+}
+
+.Link_links {
+  
+    
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    gap: 16px;
+    border: 2px solid var(--cor-tercearia);
+    width: 600px;
+    border-radius: 8px;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+
+.imagem {
+    width: 450px; 
+    border-radius: 20%;
+    border: 3px solid var(--cor-tercearia);
+    box-shadow: 0 0 10px var(--cor-tercearia);
+}
+
+
+.logos {
+    width: 25px;
+}
+
+
+.Link_links:hover {
+
+    background: var(--cor-hover)
+}
+
+.rodape {
+    
+    
+    font-family: var(--fonte-secundaria);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-tercearia);
+    color: var(--cor-prmaria)
+     
+}
+
+
+.cabecalho__nav { 
+
+    display: flex;
+    gap: 80px;
+
+}
+.cabecalho {
+   
+    padding: 2% 0% 0% 16%;  
+   
+}
+
+.cabecalho__titulo {  
+    text-decoration: none;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-tercearia)
+    
+}
+
+.cabecalho__titulo:hover {
+  
+    color: var(--cor-secundaria);
+}
