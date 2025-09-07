@@ -33,12 +33,13 @@ body   {
 }
 
 
-.apresentacao {
-
-    padding: 8% 15%;
+.apresentacao { 
+    
+    
+    padding: 6%  15%;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-between;
     
 }
 
@@ -69,7 +70,7 @@ body   {
     gap:32px;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content:sc;
     align-items: center
     
     
@@ -92,6 +93,7 @@ body   {
 
 
 .imagem {
+    
     width: 450px; 
     border-radius: 20%;
     border: 3px solid var(--cor-tercearia);
@@ -129,8 +131,8 @@ body   {
 
 }
 .cabecalho {
-   
-    padding: 2% 0% 0% 16%;  
+    
+    padding: 2% 0% 0% 15%;  
    
 }
 
