@@ -55,13 +55,13 @@ body   {
 }
 
 .apresentacao__titulo {
-    font-size: 5.25rem;
+    font-size: 3.25rem;
    
 }
 
 .paragrafo {
     font-family: var(--fonte-secundaria);
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 
 }
 
@@ -80,9 +80,9 @@ body   {
 
 .Link_links {
   
-    
+    align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     font-size: 1.25rem;
     gap: 16px;
     border: 2px solid var(--cor-tercearia);
@@ -103,9 +103,6 @@ body   {
 }
 
 
-.logos {
-    width: 25px;
-}
 
 
 .Link_links:hover {
@@ -137,7 +134,7 @@ body   {
 .cabecalho {
     
     padding: 2% 0% 0% 15%;  
-    font-size: 1.5rem;
+    font-size: 1.2rem;
    
 }
 
@@ -174,7 +171,7 @@ body   {
 
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 6%  6%;
+        padding: 7%  6%;
         gap: 40px;
        
        
