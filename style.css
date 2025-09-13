@@ -153,6 +153,19 @@ body   {
 
 @media (max-width:1030px) {
 
+    .rodape {
+    
+    font-size: 1.1rem;
+
+       
+}
+
+    .Link_links {
+
+    width: 70%;
+   
+}
+
     .cabecalho {
             
         padding: 10% 5%;
