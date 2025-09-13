@@ -7,8 +7,8 @@
 <body>
 <main>  
 <h1> Apresentação do site</h1>
-<a href= "https://underlynee.github.io/Site-apresenta-o/"> Clique aqui :D </a>
 
+<p> Um pouco sobre mim. Em breve, estarei adicionando projetos que já realizei. </p>
 </main>
     
 </body>
